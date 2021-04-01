@@ -50,7 +50,7 @@ pip install asian-bart
 ## Usage
 - The `asian-bart` is made using mbart, so you have to follow mbart's input rules:
   - source: `text` + `</s>` + `lang_code`
-  - targe: `lang_code` + `text` + `</s>`
+  - target: `lang_code` + `text` + `</s>`
 - For more details, please check the content of the [mbart paper](https://arxiv.org/abs/2001.08210).
 <br><br>
     
