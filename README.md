@@ -191,7 +191,7 @@ pip install asian-bart
 >>> tokens = tokenizer.prepare_seq2seq_batch(
 ...     src_texts="Kevin is the <mask> man in the world.",
 ...     src_langs="en_XX",
-...     tgt_texts="Kevin is the most kindful man in the world.",
+...     tgt_texts="Kevin is the most kind man in the world.",
 ...     tgt_langs="en_XX",                  
 ... )
 
