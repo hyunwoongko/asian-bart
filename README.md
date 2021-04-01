@@ -138,7 +138,7 @@ pip install asian-bart
 ```
 <br>
 
-- all above settings work the same about target texts
+- all above batch tokenization settings work the same about target texts
 ```python
 >>> from asian_bart import AsianBartTokenizer
 >>> tokenizer = AsianBartTokenizer.from_pretrained("hyunwoongko/asian-bart-ecjk")
