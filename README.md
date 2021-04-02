@@ -1,5 +1,5 @@
 # Asian Bart
-- `asian-bart` is package for using Bart model of Asian languages.
+- `asian-bart` is package of Bart model for Asian languages.
 - `asian-bart` supports English, Chinese, Korean, japanese, Total (=ECJK)
 - We made `asian-bart` using [mBart](https://arxiv.org/abs/2001.08210) by embedding layer pruning. 
 <br><br><br>
