@@ -27,5 +27,6 @@ class AsianBartForSequenceClassification(MBartForSequenceClassification):
 class AsianBartForCausalLM(MBartForCausalLM):
     pass
 
+
 class AsianBartConfig(MBartConfig):
     pass
