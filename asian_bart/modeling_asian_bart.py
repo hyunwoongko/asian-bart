@@ -4,6 +4,7 @@ from transformers import (
     MBartForQuestionAnswering,
     MBartForSequenceClassification,
     MBartForCausalLM,
+    MBartConfig,
 )
 
 
@@ -24,4 +25,7 @@ class AsianBartForSequenceClassification(MBartForSequenceClassification):
 
 
 class AsianBartForCausalLM(MBartForCausalLM):
+    pass
+
+class AsianBartConfig(MBartConfig):
     pass
