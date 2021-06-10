@@ -5,7 +5,7 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(
     name='asian-bart',
-    version='1.0.1',
+    version='1.0.2',
     description='Asian language bart models (En, Ja, Ko, Zh, ECJK)',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -15,6 +15,7 @@ setup(
     install_requires=[
         'transformers>=4',
         'torch',
+        'sentencepiece'
     ],
     packages=find_packages(),
     python_requires='>=3',
